@@ -1,21 +1,17 @@
-# ciemes
+# Ciemes
 
-TypeScript monorepo for the Ciemes core and its GraphQL and REST API packages.
+Ciemes (pronounced "C-M-S") is an open-source CMS project focused on making
+content management simpler for developers and their users.
 
-## Packages
-
-- `@ciemes/core`
-- `@ciemes/graphql-api`
-- `@ciemes/rest-api`
+The project is at an early stage. Its direction, architecture, and public APIs
+are still taking shape.
 
 ## Development
 
-The workspace uses Turborepo to coordinate package tasks and the sibling
-WebAnvil worktree managed by uberepo for builds, checks, and tests.
+This repository uses npm workspaces and Turborepo.
 
 ```sh
 npm install
-npm run build
 npm run check
-npm test
+npm run build
 ```
