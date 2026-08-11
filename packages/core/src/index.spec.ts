@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { defineApi } from "../src/index.js";
+import { defineApi } from "./index.js";
 
 describe("defineApi", () => {
   it("describes an API", () => {

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { defineGraphqlApi } from "../src/index.js";
+import { defineGraphqlApi } from "./index.js";
 
 describe("defineGraphqlApi", () => {
   it("describes a GraphQL API", () => {
