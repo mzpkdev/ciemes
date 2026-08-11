@@ -32,5 +32,8 @@
     "lint": "wa lint",
     "test": "wa test",
     "typecheck": "wa typecheck"
+  },
+  "engines": {
+    "node": ">=24"
   }
 }
