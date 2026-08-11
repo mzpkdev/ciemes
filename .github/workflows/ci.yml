@@ -36,7 +36,7 @@ jobs:
           repository: mzpkdev/webanvil
           path: webanvil
           persist-credentials: false
-      - name: Set up Node
+      - name: Set up Node 24
         uses: actions/setup-node@v7
         with:
           node-version-file: ciemes/.nvmrc
@@ -73,7 +73,7 @@ jobs:
           repository: mzpkdev/webanvil
           path: webanvil
           persist-credentials: false
-      - name: Set up Node
+      - name: Set up Node 24
         uses: actions/setup-node@v7
         with:
           node-version-file: ciemes/.nvmrc
@@ -107,7 +107,7 @@ jobs:
           repository: mzpkdev/webanvil
           path: webanvil
           persist-credentials: false
-      - name: Set up Node
+      - name: Set up Node 24
         uses: actions/setup-node@v7
         with:
           node-version-file: ciemes/.nvmrc
@@ -141,7 +141,7 @@ jobs:
           repository: mzpkdev/webanvil
           path: webanvil
           persist-credentials: false
-      - name: Set up Node
+      - name: Set up Node 24
         uses: actions/setup-node@v7
         with:
           node-version-file: ciemes/.nvmrc
@@ -175,7 +175,7 @@ jobs:
           repository: mzpkdev/webanvil
           path: webanvil
           persist-credentials: false
-      - name: Set up Node
+      - name: Set up Node 24
         uses: actions/setup-node@v7
         with:
           node-version-file: ciemes/.nvmrc
@@ -209,7 +209,7 @@ jobs:
           repository: mzpkdev/webanvil
           path: webanvil
           persist-credentials: false
-      - name: Set up Node
+      - name: Set up Node 24
         uses: actions/setup-node@v7
         with:
           node-version-file: ciemes/.nvmrc

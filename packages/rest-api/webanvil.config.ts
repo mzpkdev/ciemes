@@ -15,7 +15,7 @@ export default defineConfig({
     declaration: { generator: "tsgo" },
     sourcemap: true,
     platform: "node",
-    target: "node22",
+    target: "node24",
   },
   test: {
     environment: "node",
