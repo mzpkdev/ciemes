@@ -30,6 +30,7 @@
     "dev": "wa dev",
     "format": "wa format",
     "lint": "wa lint",
+    "prepack": "npm run build",
     "test": "wa test",
     "typecheck": "wa typecheck"
   },
