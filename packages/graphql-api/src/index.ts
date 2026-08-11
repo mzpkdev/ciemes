@@ -1,5 +1,5 @@
-import { defineApi, type ApiDescriptor } from "@ciemes/core";
+import { defineApi, type ApiDescriptor } from "@ciemes/core"
 
-export function defineGraphqlApi(name: string): ApiDescriptor {
-  return defineApi(name, "graphql");
+export const defineGraphqlApi = (name: string): ApiDescriptor => {
+  return defineApi(name, "graphql")
 }

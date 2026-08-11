@@ -1,10 +1,10 @@
-export type ApiProtocol = "graphql" | "rest";
+export type ApiProtocol = "graphql" | "rest"
 
 export interface ApiDescriptor {
-  name: string;
-  protocol: ApiProtocol;
+  name: string
+  protocol: ApiProtocol
 }
 
-export function defineApi(name: string, protocol: ApiProtocol): ApiDescriptor {
-  return { name, protocol };
+export const defineApi = (name: string, protocol: ApiProtocol): ApiDescriptor => {
+  return { name, protocol }
 }

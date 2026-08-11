@@ -1,6 +1,11 @@
-import { defineConfig } from "webanvil";
+import { defineConfig } from "webanvil"
 
 export default defineConfig({
+  format: { semi: false },
+  lint: {
+    categories: { correctness: "error", suspicious: "error", perf: "error" },
+    plugins: ["oxc", "typescript", "unicorn"],
+  },
   build: {
     mode: "node",
     entries: { ".": "src/index.ts" },
@@ -15,4 +20,4 @@ export default defineConfig({
     environment: "node",
     include: ["src/**/*.spec.ts"],
   },
-});
+})
