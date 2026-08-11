@@ -17,6 +17,8 @@ env:
   CI: "true"
   TURBO_TELEMETRY_DISABLED: "1"
 
+# TODO(webanvil): Once published, replace the file dependency and remove the
+# sibling checkout, install steps, and root postinstall script.
 jobs:
   format:
     name: Format
