@@ -1,5 +1,8 @@
 # Ciemes
 
+> The CMS that stays yours. Self-host it, shape it around your project, and keep
+> building.
+
 Ciemes (pronounced "C-M-S") is an open-source content management system (CMS)
 focused on making content management simpler for developers and their users.
 
