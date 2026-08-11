@@ -1,0 +1,40 @@
+{
+  "name": "@ciemes/storage-git",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzpkdev/ciemes.git",
+    "directory": "packages/storage-git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "wa build",
+    "check": "wa check",
+    "clean": "wa clean",
+    "coverage": "wa test --coverage",
+    "dev": "wa dev",
+    "format": "wa format",
+    "lint": "wa lint",
+    "prepack": "npm run build",
+    "test": "wa test",
+    "typecheck": "wa typecheck"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
