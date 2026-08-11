@@ -22,8 +22,5 @@
     "lint": "wa lint",
     "test": "wa test",
     "typecheck": "wa typecheck"
-  },
-  "dependencies": {
-    "@ciemes/core": "*"
   }
 }

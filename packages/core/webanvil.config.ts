@@ -5,6 +5,7 @@ export default defineConfig({
   lint: {
     categories: { correctness: "error", suspicious: "error", perf: "error" },
     plugins: ["oxc", "typescript", "unicorn"],
+    rules: { "unicorn/no-empty-file": "off" },
   },
   build: {
     mode: "node",
