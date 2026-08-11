@@ -1,0 +1,26 @@
+{
+  "name": "@ciemes/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "wa build",
+    "check": "wa check",
+    "clean": "wa clean",
+    "coverage": "wa test --coverage",
+    "dev": "wa dev",
+    "format": "wa format",
+    "lint": "wa lint",
+    "test": "wa test",
+    "typecheck": "wa typecheck"
+  }
+}
